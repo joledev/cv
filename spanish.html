@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Joel Lopez Verdugo - CV resumen</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">JoleDev</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="bx nav__icon bx-home"></i>Inicio </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"> <i class="bx nav__icon bx-user"></i>Perfil </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"> <i class="bx nav__icon bx-book"></i>Educación </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class="bx nav__icon bx-receipt"></i>Habilidades </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"> <i class="bx nav__icon bx-briefcase-alt"></i>Experiencia </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link"> <i class="bx bx-git-branch"></i>Proyectos </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"> <i class="bx nav__icon bx-award"></i>Certificados </a>
+            </li>
+
+            <!-- <li class="nav__item">
+              <a href="#references" class="nav__link"> <i class="bx nav__icon bx-link-external"></i>References </a>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/perfil.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">Joel Ernesto <b>López Verdugo</b></h1>
+                <h3 class="home__profession">Desarrollador Web</h3>
+                <a id="idioma" href="#" class="nav__logo">View resume in english <i class="bx bx-right-arrow-alt"></i></a>
+
+                <div class="">
+                  <a download="" href="assets/pdf/joledev-resume.pdf" class="home__button-movil">Descargar</a>
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information"> <i class="bx home__icon bx-map"></i>Ensenada, Baja California, México </span>
+                <span class="home__information"> <i class="bx home__icon bx-envelope"></i>joel.ernesto.lopez.verdugo@uabc.edu.mx </span>
+                <span class="home__information"> <i class="bx home__icon bx-envelope"></i>contacto@joledev.com </span>
+                <span class="home__information"> <i class="bx home__icon bx-phone"></i>+52 646 125 3797 </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a href="https://www.linkedin.com/in/joledev/" target="_blank" class="social__link">
+                <i class="bx social__icon bxl-linkedin-square"></i>
+                @joledev
+              </a>
+              <a href="https://github.com/joledev" target="_blank" class="social__link">
+                <i class="bx social__icon bxl-github"></i>
+                @joledev
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">PERFIL</h2>
+            <p class="profile__description">
+              Egresado en Ingeniería en computación de la Universidad Autónoma de Baja California. Soy una persona dedicada; la programación y el desarrollo de
+              sistemas web se convirtieron en mi pasión y mi razón para seguir aprendiendo y estudiando para mejorar en mi área
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title"></h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Universidad Autonoma de Baja California</h3>
+                  <span class="education__studies">Ingeniería en computación</span>
+                  <span class="education__year">2018 - 2022</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span> HTML</li>
+                <li class="skills__name"><span class="skills__circle"></span> CSS</li>
+                <li class="skills__name"><span class="skills__circle"></span> JavaScript</li>
+                <li class="skills__name"><span class="skills__circle"></span> PHP</li>
+                <li class="skills__name"><span class="skills__circle"></span> Java</li>
+                <li class="skills__name"><span class="skills__circle"></span> C#</li>
+                <li class="skills__name"><span class="skills__circle"></span> MySql</li>
+                <li class="skills__name"><span class="skills__circle"></span> Unix, Linux y Windows</li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name"><span class="skills__circle"></span> Laravel</li>
+                <li class="skills__name"><span class="skills__circle"></span> React JS</li>
+                <li class="skills__name"><span class="skills__circle"></span> Node JS</li>
+                <li class="skills__name"><span class="skills__circle"></span> jQuery</li>
+                <li class="skills__name"><span class="skills__circle"></span> SpringBoot</li>
+                <li class="skills__name"><span class="skills__circle"></span> .NET</li>
+                <li class="skills__name"><span class="skills__circle"></span> MongoDB</li>
+                <li class="skills__name"><span class="skills__circle"></span> AWS, Heroku y Hostinger</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experiencia</h2>
+
+            <div class="experience__container bd-grid">
+              <!-- //? Cafeteria FIAD -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador Web (en prácticas)</h3>
+                  <span class="experience__company">Marzo 2022 - Julio 2022 | Universidad Autónoma de Baja California - Campus Sauzal</span>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>Construcción de un sistema de pedidos para la cafetería del Campus Sauzal de la Universidad Autónoma de
+                    Baja California usando PHP, HTML, CSS, JS y PayPal como método de pago.
+                  </p>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>Creación de un menú dinámico junto con su respectivo dashboard para la administración de productos
+                    disponibles para los estudiantes de la universidad.
+                  </p>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>Dashboard para administrar pedidos hechos en tiempo real mediante la página
+                  </p>
+                </div>
+              </div>
+
+              <!-- //? Sistema Diplomas UABC -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador Web (en prácticas)</h3>
+                  <span class="experience__company">Mayo 2022 - Junio 2022 | Universidad Autónoma de Baja California</span>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>Spring Boot construcción del backend del sistema de creación de diplomas con SpringBoot, HTML, CSS y JS
+                  </p>
+                  <p class="experience__description"><span class="skills__circle"></span>Uso de JasperReports para escribir y exportar los documentos en PDF</p>
+                </div>
+              </div>
+
+              <!-- //? Bocana Adventure -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador Web</h3>
+                  <span class="experience__company">Agosto 2022 - Octubre 2022 | Bocana Adventure</span>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>Desarrollo de un sistema de reservas (admin dashboard, reservas en tiempo real, métodos de pago y
+                    landpage)
+                  </p>
+                  <p class="experience__description"><span class="skills__circle"></span>Desarrollo de un sistema PHP usando Ajax y PDO</p>
+                </div>
+              </div>
+
+              <!-- //? Cooperativa Progreso -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador Web</h3>
+                  <span class="experience__company"> Diciembre 2022 - Actualidad | Sociedad Cooperativa Progreso </span>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>
+                    Desarrollo y mantenimiento de los sistemas web de la empresa (Ventas, remisiones, inventario, administración de empleados y usuarios,
+                    cálculo de nómina, packing list, almacenamiento de archivos y movimiento de productos)
+                  </p>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>
+                    Desarrollo y mantenimiento de las aplicaciones PWA para las tablets de los empleados de la planta.
+                  </p>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>
+                    Participación en la toma de decisiones de proyectos para mejorar la productividad de la empresa.
+                  </p>
+                </div>
+              </div>
+
+              <!-- //? Cooperativa Emancipacion -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador Web</h3>
+                  <span class="experience__company"> Febrero 2023 - Mayo 2023 | Sociedad Cooperativa Emancipacion </span>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>
+                    Desarrollo de un sistema de ventas, permitiendo ventas por internet a través de la landing page store y desde sistema para un control de
+                    inventario.
+                  </p>
+                  <p class="experience__description">
+                    <span class="skills__circle"></span>
+                    Pagos por internet mediante Stripe
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== PROJECTS ==========-->
+          <section class="certificate section" id="projects">
+            <h2 class="section-title">Proyectos</h2>
+
+            <div class="certificate__container bd-grid">
+              <!-- //? Luz Verde Luz Roja -->
+              <div class="certificate__content">
+                <a target="_blank" href="https://github.com/joledev/LuzVerdeLuzRoja"><h3 class="certificate__title">Luz Verde Luz Roja</h3></a>
+                <p class="certificate__decription">Videojuego inspirado en la serie "Squid Game", desarrollado en Unity</p>
+              </div>
+
+              <!-- //? Yusuke Nakamura Fanpge -->
+              <div class="certificate__content">
+                <a target="_blank" href="https://github.com/joledev/Yusuke_Nakamura_Page"><h3 class="certificate__title">Yusuke Nakamura FanPage</h3></a>
+                <p class="certificate__decription">
+                  Una fanpage inspirada en el arte de Yusuke Nakamura desarrollada en HTML, CSS y JS, utilizando embeds de spotify
+                </p>
+              </div>
+
+              <!-- //? Administración del sistema para el taller mecánico EL MANOLO -->
+              <div class="certificate__content">
+                <a target="_blank" href="https://github.com/joledev/proyecto-AyDS"
+                  ><h3 class="certificate__title">Administración del sistema para el taller mecánico EL MANOLO</h3></a
+                >
+                <p class="certificate__decription">
+                  Desarrollo de un sistema basado en PHP que permita la administración de clientes, coches y generación de recibos de pago del taller mecánico.
+                </p>
+              </div>
+
+              <!-- //? JoleDev DotFiles -->
+              <div class="certificate__content">
+                <a target="_blank" href="https://github.com/joledev/DotFIles"><h3 class="certificate__title">JoleDev DotFiles</h3></a>
+                <p class="certificate__decription">
+                  Mis dot files para NeoVim, personalización de terminal, comandos personalizados de terminal, instalación de mis manejadores de paquetes y
+                  combinaciones de teclas personalizadas para mis dos sistemas operativos (Windows 10 y ArchCraft)
+                </p>
+              </div>
+
+              <!-- //? CV -->
+              <div class="certificate__content">
+                <a target="_blank" href="https://github.com/joledev/cv"><h3 class="certificate__title">JoleDev CV</h3></a>
+                <p class="certificate__decription">
+                  Mi CV desarrollado en HTML, CSS y JS usando como base
+                  <a href="https://github.com/bedimcode/responsive-resume-cv-smith" target="_blank">responsive-resume-cv-smith</a> de bedimcode.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificados</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <a target="_blank" href="https://coursera.org/share/69dcd02bbdfac1745273a7754caa3125"><h3 class="certificate__title">Google IT Support</h3></a>
+                <p class="certificate__decription">Tras terminar los 5 cursos sobre IT Support de google en la plataforma de Coursera</p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <!-- <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Zainudin's Sister</span>
+                <h3 class="references__title">Mrs. Napsiah Hernawati</h3>
+                <ul class="references__contact">
+                  <li>WhatsApp: 999-777-888</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Head of SE in Vocational High School 2 Bekasi City </span>
+                <h3 class="references__title">Mr. Andi Susandi, S. Kom.</h3>
+                <ul class="references__contact">
+                  <li>WhatsApp: 999-777-888</li>
+                  <li>Email: user@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Idiomas</h2>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Español
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Ingles
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Intereses</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx interests__icon bx-headphone"></i>
+                <span class="interests__name">Música</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx interests__icon bx-book"></i>
+                <span class="interests__name">Leer</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx interests__icon bx-dumbbell"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
